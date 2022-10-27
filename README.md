@@ -1,2 +1,2 @@
-# GNU-Emacs
+# Emacs
 Emacs GNU;  extensible, customizable, libre configuration.
