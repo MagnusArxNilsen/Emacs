@@ -1,4 +1,4 @@
-# Emacs
+# Highlight
 
 ## Graphics
 * enlarge-window
