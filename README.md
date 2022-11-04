@@ -1,4 +1,4 @@
-# Highlight
+# Commands
 
 ## Graphics
 * enlarge-window
