@@ -1,4 +1,5 @@
-# Emacs Lisp
+# Emacs Defaults
+
 ```
 (custom-set-variables
   '(custom-enabled-themes '(misterioso))
@@ -11,4 +12,9 @@
   '(tool-bar-mode nil)
   '(visible-bell t)
 )
+```
+
+```
+(custom-set-faces
+   '(default ((t (:inherit nil :extend nil :stipple nil :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight semi-bold :height 120 :width normal :foundry "outline" :family "Cascadia Code")))))
 ```
