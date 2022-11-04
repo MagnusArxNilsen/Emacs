@@ -1,5 +1,6 @@
 # Emacs
 
+## Graphics
 * enlarge-window
 * enlarge-window-horizontally
 * shrink-window
