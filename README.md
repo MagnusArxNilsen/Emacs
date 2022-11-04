@@ -1,6 +1,6 @@
-# Commands
+# Emacs Overview
 
-## Graphics
+## Commands
 * enlarge-window
 * enlarge-window-horizontally
 * shrink-window
