@@ -1,4 +1,4 @@
-# Emacs Overview
+# Overview
 
 ## Commands
 * enlarge-window
