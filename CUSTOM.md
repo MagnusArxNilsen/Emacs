@@ -1,4 +1,4 @@
-# Emacs Defaults
+# Defaults
 
 ```
 (custom-set-variables
