@@ -8,3 +8,4 @@
 * describe-key
 * customize-variable
 * eval-region
+* ielm
