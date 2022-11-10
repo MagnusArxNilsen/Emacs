@@ -1,8 +1,13 @@
 # Overview
 
+## Hotkeys
+* C-h r
+* C-h C-h
+
 ### Variables
 
-### Commands
-* customize-variable
-
 ### Functions
+* describe-key
+* customize-variable
+* eval-defun
+* eval-region
