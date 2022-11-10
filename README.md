@@ -1,6 +1,6 @@
 # Overview
 
-## Hotkeys
+### Hotkeys
 * C-h r
 * C-h C-h
 
