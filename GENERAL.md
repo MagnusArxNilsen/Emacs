@@ -8,6 +8,7 @@
   '(inhibit-startup-screen t)
   '(make-backup-files nil)
   '(menu-bar-mode nil)
+  '(ring-bell-function 'ignore)
   '(scroll-bar-mode nil)
   '(tool-bar-mode nil)
   '(visible-bell t)
