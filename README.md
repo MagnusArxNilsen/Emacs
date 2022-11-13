@@ -6,6 +6,7 @@
 
 ### Functions
 * describe-key
+* list-packages
 * customize-variable
 * eval-region
 * ielm
