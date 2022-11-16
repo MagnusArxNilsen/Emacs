@@ -2,6 +2,59 @@
 ;;
 
 
+;; Language Protocol
+(use-package lsp-mode 
+  :ensure
+  :config (lsp))
+
+;; Selection Framework
+(use-package helm 
+  :ensure
+  :config (require 'helm-config)
+  :bind (("M-x" . helm-M-x)
+	 ("C-x C-f" . helm-find-files)
+	 ("C-x b" . helm-mini)
+	 ("C-x C-r" . helm-recentf)
+	 ("C-c i" . helm-imenu)
+	 ("M-y" . helm-show-kill-ring)
+	 :map helm-map
+	 ("C-z" . helm-select-action)
+	 ("<tab>" . helm-execute-persistent-action)))
+
+(use-package flyspell-correct-helm
+  :bind ("C-M-;" . flyspell-correct-wrapper)
+  :init
+  (setq flyspell-correct-interface #'flyspell-correct-helm))
+
+;; Auto Completion
+(use-package company
+  :ensure
+  :config
+  (setq company-idle-delay 0
+        company-minimum-prefix-length 3
+        company-selection-wrap-around t))
+
+;; Syntax Checker
+(use-package flycheck
+  :ensure)
+
+;; Template System
+(use-package yasnippet
+  :ensure)
+
+(use-package yasnippet-snippets
+  :ensure)
+
+ ;; Custom Mode-Line 
+(use-package powerline
+  :ensure
+  :config (powerline-default-theme))
+
+;; Selection Guesser 
+(use-package smart-region
+  :ensure)
+
+
 (custom-set-variables
   '(custom-enabled-themes '(misterioso))
   '(global-hl-line-mode t)
