@@ -2,14 +2,6 @@
 ;;
 
 
-(require 'package)
-(add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)
-(package-initialize)
-
-(unless package-archive-contents
-  (package-refresh-contents))
-
-
 (custom-set-variables
   '(custom-enabled-themes '(misterioso))
   '(global-hl-line-mode t)
