@@ -1,7 +1,3 @@
-;;
-;;
-
-
 (custom-set-variables
   '(custom-enabled-themes '(misterioso))
   '(global-hl-line-mode t)
@@ -25,12 +21,7 @@
 (bind-key "C-M-<down>" 'shrink-window)
 (bind-key "C-M-<left>" 'shrink-window-horizontally)
 
+
 (set-frame-parameter (selected-frame) 'alpha '(98 . 94))
 (add-to-list 'default-frame-alist '(alpha . (98 . 94)))
-
-(split-window-vertically)
-(other-window 1)
-(eshell)
-(shrink-window 10)
-(other-window 1)
 
