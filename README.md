@@ -9,4 +9,4 @@
 * list-packages
 * customize-variable
 * eval-region
-* ielm
+* eshell
