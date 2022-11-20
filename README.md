@@ -2,7 +2,7 @@
 
 ### Hotkeys (C-h ?)
 * The Emacs Editor (r)
-* C+M+s Regexp I-search.
+* Regexp I-search (C+M+s).
 
 ### Commands (M-x)
 * describe-key
