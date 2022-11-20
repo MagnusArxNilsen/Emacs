@@ -1,4 +1,14 @@
+
+## Commands (M-x)
+
+* eshell
+* regexp-builder
+* replace-regexp
+* eval-region
+
+
 ## Startup
+
 ```elisp
 (split-window-vertically)
 (other-window 1)
@@ -7,8 +17,3 @@
 (other-window 1)
 (cd "c:/Users/Magnus/Desktop")
 ```
-
-## Commands (M-x)
-* eshell
-* regexp-builder
-* replace-regexp
