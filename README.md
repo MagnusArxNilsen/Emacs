@@ -1,12 +1,8 @@
 # Overview
 
-### Hotkeys
-* C-h r
-* C-h C-h
+### Hotkeys (C-h ?)
 
-### Functions
+### Commands (M-x)
 * describe-key
-* list-packages
 * customize-variable
-* eval-region
-* eshell
+* list-packages
