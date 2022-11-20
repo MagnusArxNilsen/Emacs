@@ -7,7 +7,7 @@
 * eval-region
 
 
-## Startup
+## Startup Script
 
 ```elisp
 (split-window-vertically)
