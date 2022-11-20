@@ -12,7 +12,7 @@
 * list-packages
 
 ### Org Mode
-Org mode is a variant of Outline mode for using Emacs as an organizer\\
-and/or authoring system.  Files with names ending in the extension ‘.org’'//
+Org mode is a variant of Outline mode for using Emacs as an organizer<br />
+and/or authoring system.  Files with names ending in the extension ‘.org’'<br />
 are opened in Org mode (*note Choosing Modes::).  To explicitly switch<br />
 to Org mode, type ‘M-x org-mode’.
