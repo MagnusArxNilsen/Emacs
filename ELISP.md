@@ -1,5 +1,5 @@
-
-```
+## Startup
+```elisp
 (split-window-vertically)
 (other-window 1)
 (eshell)
