@@ -7,3 +7,8 @@
 (other-window 1)
 (cd "c:/Users/Magnus/Desktop")
 ```
+
+## Commands (M-x)
+* eshell
+* regexp-builder
+* replace-regexp
