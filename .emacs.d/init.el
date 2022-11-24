@@ -79,13 +79,7 @@
  '(custom-enabled-themes '(misterioso))
  '(global-hl-line-mode t)
  '(global-linum-mode t)
- '(inhibit-startup-screen t)
- '(ispell-local-dictionary "en_US")
- '(ispell-local-dictionary-alist
-   '(("en_US" "[[:alpha:]]" "[^[:alpha:]]" "[']" nil
-      ("-d" "en_US")
-      nil utf-8)))
- '(ispell-program-name "hunspell")
+ '(inhibit-startup-screen t
  '(make-backup-files nil)
  '(menu-bar-mode nil)
  '(org-startup-indented t)
@@ -107,9 +101,6 @@
 
 ;; ----
 ;; -- Define Variables
-
-(setq ispell-hunspell-dict-paths-alist
-      '(("en_US" "~/.emacs.d/hunspell/en_US.aff")))
 
 
 ;; ---
