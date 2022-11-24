@@ -132,7 +132,7 @@
 (eshell)
 (shrink-window 10)
 (other-window 1)
-(cd "path/path")
+(cd "path/to/work")
 
 
 ;; --
