@@ -2,9 +2,9 @@
 ## Commands (M-x)
 
 * eshell
-* regexp-builder
-* replace-regexp
 * eval-region
+* replace-regexp
+* regexp-builder
 
 
 ## Startup Script
