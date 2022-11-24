@@ -132,7 +132,7 @@
 (eshell)
 (shrink-window 10)
 (other-window 1)
-(cd "C:/Users/Magnus Arneberg/Desktop")
+(cd "path/path")
 
 
 ;; --
