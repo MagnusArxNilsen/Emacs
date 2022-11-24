@@ -9,6 +9,7 @@
 ## Commands (M-x)
 * describe-key
 * customize-variable
+* customize-face (default)
 * list-packages
 
 ## Major Modes
