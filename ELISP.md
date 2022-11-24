@@ -1,7 +1,8 @@
+## EShell (eshell)
+
 
 ## Commands (M-x)
 
-* eshell
 * eval-region
 * replace-regexp
 * regexp-builder
