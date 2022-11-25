@@ -125,7 +125,7 @@
 
 
 ;; ----
-;; -- End Script
+;; -- Setup Script
 
 (if (eq window-system nil)
     (set-face-attribute 'default nil :background "black"))
