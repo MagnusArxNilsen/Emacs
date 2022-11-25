@@ -3,7 +3,7 @@
 
 
 ;; ----
-;; -- Required Archives 
+;; -- Archives
 
 (require 'package)
 (add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)
@@ -14,7 +14,7 @@
 
 
 ;; ----
-;; -- Install Packages
+;; -- Installation
 
 (setq package-list '(use-package))
 
@@ -24,7 +24,7 @@
 
 
 ;; ----
-;; -- Required Packages
+;; -- Packages
 
 (use-package helm 
   :ensure
@@ -69,7 +69,7 @@
 
 
 ;; ----
-;; -- Customize Variables
+;; -- customize-variable
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
@@ -83,14 +83,14 @@
  '(make-backup-files nil)
  '(menu-bar-mode nil)
  '(org-startup-indented t)
- '(package-selected-packages '(corfu nix-mode rustic use-package))
+ '(package-selected-packages '(nix-mode rustic use-package))
  '(ring-bell-function 'ignore)
  '(scroll-bar-mode nil)
  '(tool-bar-mode nil))
 
 
 ;; ----
-;; -- Customize Theme
+;; -- customize-face default
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -100,11 +100,12 @@
 
 
 ;; ----
-;; -- Define Variables
+;; -- Variables
+
 
 
 ;; ---
-;; -- Keybindings
+;; -- Key-binds
 
 (bind-key "C-c C-SPC" 'yas-insert-snippet)
 (bind-key "C-M-<up>" 'enlarge-window)
@@ -115,7 +116,7 @@
 
 
 ;; ---
-;; -- Parameters
+;; -- Values
 
 (put 'upcase-region 'disabled nil)
 (put 'downcase-region 'disabled nil)
@@ -125,7 +126,7 @@
 
 
 ;; ----
-;; -- Setup Script
+;; -- Script
 
 (if (eq system-type 'windows-nt)
     (progn (setq ispell-local-dictionary "en_US")
@@ -145,6 +146,7 @@
 (shrink-window 10)
 (other-window 1)
 (cd "path/to/work/dir")
+
 
 ;; --
 ;; ---- ~/.emacs.d/init.el
