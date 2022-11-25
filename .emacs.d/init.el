@@ -79,7 +79,7 @@
  '(custom-enabled-themes '(misterioso))
  '(global-hl-line-mode t)
  '(global-linum-mode t)
- '(inhibit-startup-screen t
+ '(inhibit-startup-screen t)
  '(make-backup-files nil)
  '(menu-bar-mode nil)
  '(org-startup-indented t)
@@ -117,7 +117,7 @@
 ;; ---
 ;; -- Parameters
 
-(put 'upcase-region 'disabled nil)i
+(put 'upcase-region 'disabled nil)
 (put 'downcase-region 'disabled nil)
 
 (set-frame-parameter (selected-frame) 'alpha '(98 . 94))
