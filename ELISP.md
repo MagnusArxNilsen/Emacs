@@ -1,5 +1,6 @@
-## EShell (eshell)
+## IELM (ielm)
 
+Interactively evaluate Emacs Lisp expressions.
 
 ## Commands (M-x)
 
