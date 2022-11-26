@@ -3,6 +3,12 @@
 
 
 ;; ----
+;; -- Variables
+
+(defconst WORKDIR "path/to/work/dir")
+
+
+;; ----
 ;; -- Archives
 
 (require 'package)
@@ -99,11 +105,6 @@
  '(default ((t (:inherit nil :extend nil :stipple nil :background "#2d3743" :foreground "#e1e1e0" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight bold :height 120 :width normal :foundry "outline" :family "Cascadia Code")))))
 
 
-;; ----
-;; -- Variables
-
-
-
 ;; ---
 ;; -- Key-binds
 
@@ -145,8 +146,9 @@
 (eshell)
 (shrink-window 10)
 (other-window 1)
-(cd "path/to/work/dir")
+(cd WORKDIR)
 
 
 ;; --
 ;; ---- ~/.emacs.d/init.el
+
