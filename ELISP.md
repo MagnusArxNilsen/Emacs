@@ -1,5 +1,7 @@
 ## Functions
-defun, funcall, setq, lambda.
+* (setq [SYM VAL]...)
+* (defun NAME ARGLIST &optional DOCSTRING DECL &rest BODY)
+* (lambda ARGS [DOCSTRING] [INTERACTIVE] BODY) 
 
 ## IELM (ielm)
 
