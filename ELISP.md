@@ -11,9 +11,10 @@ Interactively evaluate Emacs Lisp expressions.
 * C-x X-e (eval-last-sexp)
 
 ## Commands (M-x)
-
-* eval-region
-* replace-regexp
-* regexp-builder
+* (backward-word &optional ARG)
+* (eval-region START END &optional PRINTFLAG READ-FUNCTION)
+* (replace-regexp REGEXP TO-STRING &optional DELIMITED START END
+BACKWARD REGION-NONCONTIGUOUS-P)
+* (regexp-builder)
 
 
