@@ -20,14 +20,15 @@
 # Packages
 
 
-## elpy
+## [elpy](https://github.com/jorgenschaefer/elpy/)
+The Emacs Lisp Python Environment in Emacs. Elpy is an Emacs package to bring powerful Python editing to Emacs. It combines a number of existing Emacs packages, both written in Emacs Lisp as well as Python. For more information, read the Elpy manual: https://elpy.readthedocs.io/en/latest/index.html
 
 
 ## [nix-mode](https://github.com/NixOS/nix-mode)
 A major mode for editing Nix expressions (.nix files).  See the Nix manual
 for more information available at https://nixos.org/nix/manual/.
 
-## rustic
-
+## [rustic](https://github.com/brotzeit/rustic)
+This package is based on rust-mode and provides additional features: rust-analyzer configuration, flycheck integration, cargo popup and multiline error parsing. Translation of ANSI control sequences through xterm-color. async org babel. Custom compilation process and rustfmt errors in a rust compilation mode. Automatic rust-analyzer configuration with eglot or lsp-mode. Cask for testing, requires emacs 26 and more.
 
 
