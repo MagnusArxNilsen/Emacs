@@ -29,6 +29,6 @@ A major mode for editing Nix expressions (.nix files).  See the Nix manual
 for more information available at https://nixos.org/nix/manual/.
 
 ## [rustic](https://github.com/brotzeit/rustic)
-Based on rust-mode and provides additional features: rust-analyzer configuration, flycheck integration, cargo popup and multiline error parsing. Translation of ANSI control sequences through xterm-color. (async org babel). Custom compilation process and rustfmt errors in a rust compilation mode. Automatic rust-analyzer configuration with eglot or lsp-mode. Cask for testing, requires emacs 26, and more.
+Based on rust-mode and provides additional features: rust-analyzer configuration, flycheck integration, cargo popup and multiline error parsing. Translation of ANSI control sequences through xterm-color. (async org babel). Custom compilation process and rustfmt errors in a rust compilation mode. Automatic rust-analyzer configuration with eglot or lsp-mode.
 
 
