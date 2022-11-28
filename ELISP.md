@@ -8,7 +8,7 @@
 Interactively evaluate Emacs Lisp expressions.
 
 ## Hotkeys (C-h ?)
-* C-x X-e (eval-last-sexp)
+* C-x C-e (eval-last-sexp EVAL-LAST-SEXP-ARG-INTERNAL)
 
 ## Commands (M-x)
 * (backward-word &optional ARG)
