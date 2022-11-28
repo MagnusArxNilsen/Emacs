@@ -1,16 +1,16 @@
 # Overview
 
 ## Hotkeys (C-h ?)
-* Emacs Editor (C-h r)
-* Regexp I-search (C+M+s).
-* String Rectangle (C-x r t).
-* Kill Ring Save (M-w).
+* C-h r (info-emacs-manual)
+* C+M+s (isearch-forward-regexp &optional NOT-REGEXP NO-RECURSIVE-EDIT)
+* C-x r t (string-rectangle START END STRING).
+* M-w (kill-ring-save BEG END &optional REGION).
 
 ## Commands (M-x)
-* describe-key
-* customize-variable
-* customize-face (default)
-* list-packages
+* (describe-key KEY-LIST &optional BUFFER)
+* (customize-variable SYMBOL)
+* (customize-face &optional FACE OTHER-WINDOW) default
+* (list-packages &optional NO-FETCH)
 
 ## Major Modes
 ### Org Mode
