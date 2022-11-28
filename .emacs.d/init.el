@@ -67,7 +67,7 @@
   :ensure)
 
 (use-package nix-mode
-  :ensure)
+  :mode "\\.nix\\'")
 
 (use-package elpy
   :ensure
