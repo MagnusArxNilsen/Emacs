@@ -1,5 +1,6 @@
 ## Functions
-* (setq [SYM VAL]...)
+* (defvar SYMBOL &optional INITVALUE DOCSTRING)
+* (defconst SYMBOL INITVALUE [DOCSTRING])
 * (defun NAME ARGLIST &optional DOCSTRING DECL &rest BODY)
 * (lambda ARGS [DOCSTRING] [INTERACTIVE] BODY) 
 
