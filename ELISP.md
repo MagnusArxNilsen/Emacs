@@ -3,17 +3,15 @@
 * (lambda ARGS [DOCSTRING] [INTERACTIVE] BODY) 
 
 ## IELM (ielm)
-
 Interactively evaluate Emacs Lisp expressions.
 
 ## Hotkeys (C-h ?)
-* C-x C-e (eval-last-sexp EVAL-LAST-SEXP-ARG-INTERNAL)
+* M-: (eval-expression)
+* C-x C-e (eval-last-sexp)
 
 ## Commands (M-x)
-* (backward-word &optional ARG)
-* (eval-region START END &optional PRINTFLAG READ-FUNCTION)
-* (replace-regexp REGEXP TO-STRING &optional DELIMITED START END
-BACKWARD REGION-NONCONTIGUOUS-P)
+* (eval-region)
+* (forward-word)
+* (replace-regexp)
 * (regexp-builder)
-
 
