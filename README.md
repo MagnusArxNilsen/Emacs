@@ -14,6 +14,10 @@
 
 ## Major Modes
 ### Org Mode
-A variant of Outline mode for using Emacs as an organizer and/or authoring system. Files with names ending in the extension ‘.org’' are opened in Org mode (note Choosing Modes). To explicitly switch to Org mode, type ‘M-x org-mode’.
+Use Emacs as an organizer and/or authoring system. Files with the extension ‘.org’' are opened in Org mode.
 ### IELM (ielm)
-Interactively evaluate Emacs Lisp expressions.
+Interactively evaluating Emacs Lisp expressions. C-M-i completes Lisp symbols (or filenames), or indents.
+
+
+
+
